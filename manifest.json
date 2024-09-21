@@ -8,7 +8,7 @@
   "permissions": [
     "webRequest",
     "webRequestBlocking",
-    "https://*.twitter.com/",
+    "https://*.youtube.com/",
     "tabs",
     "browsingData"
   ],
@@ -30,7 +30,7 @@
 
   "content_scripts": [
     {
-      "matches": ["https://*.twitter.com/*"],
+      "matches": ["https://*.youtube.com/*"],
       "js": ["fix-twitter.js"]
     }
   ],
